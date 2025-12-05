@@ -1,0 +1,5 @@
+.video-right {
+background: linear-gradient(rgba(0,0,0,0.78), rgba(41,39,39,0.68)), url(IMG/bg-video.jpg) no-repeat center;
+height: 350px;
+background-size: cover;
+}

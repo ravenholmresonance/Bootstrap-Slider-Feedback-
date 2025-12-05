@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap (Slider + Feedback)</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container-fluid"> 
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container">
+    <a class="navbar-brand" href="#"><i class="fa-solid fa-cat fa-2xl text-success"></i></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link1</a>
+        </li>
+        <a class="nav-link" href="#">Link2</a>
+        </li>
+        <a class="nav-link" href="#">Link3</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Найти друзей" aria-label="Search"/>
+        <button class="btn btn-outline-success" type="submit">Поиск</button>
+      </form>
+    </div>
+  </div>
+</nav>
+        </div>
+    </header>
+    <main>
+        <section id ="introduce">
+           <div class="container">
+            <div class="row pb-5 gy-3">
+                <div class="col-12 col-md-6">
+                  <h6 class="text-success ">Приют для животных "Пиф"</h6>
+                    <h1 class="display-4">Приют для животных "Пиф"</h1>
+                    <p class = "fw-bold">Место, где можно найти настоящего друга</p>
+                    <p>Далеко-далеко, за словесными горами, в стране гласных и согласных, живут рыбные тексты. Коварный лучше, правилами он дорогу большой запятой вдали, силуэт необходимыми, обеспечивает встретил своих буквенных на берегу пустился его дал продолжил своего?</p>
+                  <button type="button" class="btn btn-success">Подробнее</button>
+                </div>
+                <div class="col-12 col-md-6 video-right d-flex justify-content-center align-items-center">
+                  <img src="IMG/play-icon.png" alt="">
+                </div>
+            </div>
+            </div>
+        </section>
+        <section id = "friend" class ="text-bg-light">
+          <div class="container py-5">
+            <div class="row">
+              <div class="col-5 d-none d-md-block">
+                <img class="rounded w-100" src="IMG/dog.webp" alt="">
+              </div>
+              <div class="col-12 col-md-7">
+                <div>
+                <h2 class="display-5">Найти себе друга!</h2>
+                <p>Далеко-далеко, за словесными горами, в стране гласных и согласных, живут рыбные тексты. Меня языком буквоград заманивший, пояс сих не! Это своих коварный повстречался за точках, не рукописи правилами текста возвращайся то продолжил ее? Его вдали вопроса буквенных назад возвращайся снова оксмокс от всех!</p>
+               <button type="button" class="btn btn-success">Подробнее</button>
+                <button type="button" class="btn btn-primary">Написать нам</button>
+              </div>
+            </div>
+          </div>
+</div>
+        </section>
+        <section id="slider-animal">
+<div id="carouselExample" class="carousel slide">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <div class="container">
+        <div class="row">
+          <div class="col">    <div class="card">
+  <img src="IMG/dog.webp" class="card-img-top" alt="">
+  <div class="card-body">
+    <h5 class="card-title">Card title-1</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div></div>
+          <div class="col">    <div class="card">
+  <img src="IMG/cat.webp" class="card-img-top" alt="">
+  <div class="card-body">
+    <h5 class="card-title">Card title-2</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div></div>
+          <div class="col d-none d-sm-block">    <div class="card">
+  <img src="IMG/dog.webp" class="card-img-top" alt="">
+  <div class="card-body">
+    <h5 class="card-title">Card title-3</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div></div>
+          <div class="col d-none d-md-block">    <div class="card">
+  <img src="IMG/cat.webp" class="card-img-top" alt="">
+  <div class="card-body">
+    <h5 class="card-title">Card title-4</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item">
+     <div class="container">
+        <div class="row">
+          <div class="col">    <div class="card">
+  <img src="IMG/cat.webp" class="card-img-top" alt="">
+  <div class="card-body">
+    <h5 class="card-title">Card title-1</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div></div>
+          <div class="col">    <div class="card">
+  <img src="IMG/dog.webp" class="card-img-top" alt="">
+  <div class="card-body">
+    <h5 class="card-title">Card title-2</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div></div>
+          <div class="col">    <div class="card">
+  <img src="IMG/cat.webp" class="card-img-top" alt="">
+  <div class="card-body">
+    <h5 class="card-title">Card title-3</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div></div>
+          <div class="col">    <div class="card">
+  <img src="IMG/dog.webp" class="card-img-top" alt="">
+  <div class="card-body">
+    <h5 class="card-title">Card title-4</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item">
+     <div class="container">
+        <div class="row">
+          <div class="col">    <div class="card">
+  <img src="IMG/dog.webp" class="card-img-top" alt="">
+  <div class="card-body">
+    <h5 class="card-title">Card title-1</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div></div>
+          <div class="col">    <div class="card">
+  <img src="IMG/cat.webp" class="card-img-top" alt="">
+  <div class="card-body">
+    <h5 class="card-title">Card title-2</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div></div>
+          <div class="col">    <div class="card">
+  <img src="IMG/dog.webp" class="card-img-top" alt="">
+  <div class="card-body">
+    <h5 class="card-title">Card title-3</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div></div>
+          <div class="col">    <div class="card">
+  <img src="IMG/cat.webp" class="card-img-top" alt="">
+  <div class="card-body">
+    <h5 class="card-title">Card title-4</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+        </section>
+    </main>
+    <footer>
+    </footer>
+<script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
